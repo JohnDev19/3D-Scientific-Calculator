@@ -21,7 +21,7 @@ A fully functional 3D scientific calculator built using HTML, CSS, and JavaScrip
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/3d-scientific-calculator.git
+    git clone https://github.com/JohnDev19/3d-scientific-calculator.git
     ```
 2. Navigate to the project directory:
     ```bash
