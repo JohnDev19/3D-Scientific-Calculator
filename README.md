@@ -13,7 +13,10 @@ A fully functional 3D scientific calculator built using HTML, CSS, and JavaScrip
 - History display for operations
 
 ## Screenshot
-![3D Scientific Calculator](screenshot.jpg)
+![3D Scientific Calculator](IMG_20240705_164501.jpg)
+![3D Scientific Calculator](IMG_20240705_164509.jpg)
+
+
 
 ## Installation
 1. Clone the repository:
