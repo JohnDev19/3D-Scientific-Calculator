@@ -1,0 +1,90 @@
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #141e30, #243b55);
+        }
+
+        .calculator {
+            background: linear-gradient(45deg, #2c3e50, #34495e);
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.1) inset;
+            max-width: 400px;
+            width: 100%;
+            transform: perspective(1000px) rotateX(10deg) rotateY(-10deg);
+            transition: transform 0.3s ease;
+        }
+
+        .calculator:hover {
+            transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        }
+
+        .display {
+            background-color: #1e272e;
+            color: #ecf0f1;
+            font-size: 2em;
+            padding: 20px;
+            text-align: right;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) inset;
+            min-height: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .history {
+            font-size: 0.6em;
+            color: #95a5a6;
+            margin-bottom: 5px;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+        }
+
+        button {
+            background: linear-gradient(145deg, #2c3e50, #34495e);
+            border: none;
+            color: #ecf0f1;
+            font-size: 1.2em;
+            padding: 15px 0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.1s ease;
+            box-shadow: 2px 2px 5px #2c3e50, -2px -2px 5px #34495e;
+        }
+
+        button:active {
+            box-shadow: inset 2px 2px 5px #2c3e50, inset -2px -2px 5px #34495e;
+            transform: translateY(2px);
+        }
+
+        .operator, .function {
+            background: linear-gradient(145deg, #e67e22, #d35400);
+        }
+
+        .equal {
+            background: linear-gradient(145deg, #3498db, #2980b9);
+            grid-column: span 2;
+        }
+
+        .clear, .backspace {
+            background: linear-gradient(145deg, #e74c3c, #c0392b);
+        }
+
+        .memory, .trigonometry {
+            background: linear-gradient(145deg, #9b59b6, #8e44ad);
+            font-size: 1em;
+        }
+
+        .small-text {
+            font-size: 0.8em;
+        }
