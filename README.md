@@ -1,7 +1,7 @@
 # 3D Scientific Calculator
 
 ## Description
-A fully functional 3D scientific calculator built using HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations, memory functions, trigonometric functions, logarithmic functions, and more.
+A 3D scientific calculator built using HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations, memory functions, trigonometric functions, logarithmic functions, and more.
 
 ## Features
 - Memory functions (MC, MR, M+, M-, MS)
